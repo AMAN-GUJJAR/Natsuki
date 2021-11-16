@@ -213,4 +213,4 @@ Note: /FSub is an alias of /ForceSubscribe
 
  
 """
-__mod_name__ = "force subscribe"
+__mod_name__ = "ForceSubscribe"
