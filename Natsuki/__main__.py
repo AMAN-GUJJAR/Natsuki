@@ -76,6 +76,7 @@ buttons = [
             text="𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓰𝓻𝓸𝓾𝓹", url="https://t.me/DARKAMANSUPPORT"
         ),
     ],
+    [
         InlineKeyboardButton(
             text="𝓬𝓸𝓶𝓶𝓪𝓷𝓭 ✘ 𝓱𝓮𝓵𝓹", callback_data="help_back"
         ),
