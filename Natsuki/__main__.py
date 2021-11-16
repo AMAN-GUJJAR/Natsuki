@@ -63,43 +63,38 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hey There, My Name is 𝗡𝗮𝘁𝘀𝘂𝗸𝗶. 
-I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!
+[🌸]("https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg") 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮, 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸. 
+𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 /help 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"
+            text="𝓪𝓵𝓮𝔁𝓪 𝓾𝓹𝓭𝓪𝓽𝓮𝓼", url="https://t.me/DARKAMANCHANNEL"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/NatsukiSupport_Official"
+            text="𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓰𝓻𝓸𝓾𝓹", url="https://t.me/DARKAMANSUPPORT"
+        ),
+    ],
+        InlineKeyboardButton(
+            text="𝓬𝓸𝓶𝓶𝓪𝓷𝓭 ✘ 𝓱𝓮𝓵𝓹", callback_data="help_back"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Source 🗒", url="Github.com/Sadew451"
-        ),
-        InlineKeyboardButton(
-            text="Command Help ❓", callback_data="help_back"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="➕ Add To Me Your Group ➕",
-            url="t.me/TheNatsukiBot?startgroup=true",
+            text="𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹",
+            url="t.me/ALEXA_MANAGER_ROBOT?startgroup=true",
         ),
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg"
+NATSUKI_IMG = "https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg)
+*Main Commands :* [🌸](https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg)
 
 /start: Starts me! You've probably already used this.
 /help: Click this, I'll let you know about myself!
-/donate: You can support my creater using this command.
 /settings: 
    in PM: will send you your settings for all supported modules.
    in a Group: will redirect you to pm, with all that chat's settings.
@@ -109,9 +104,7 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer's of the Base code,
-Support them  [SADEW JAYASEKARA](t.me/Darkridersslk)"""
+DONATE_STRING = """𝓱𝓮𝔂𝓪, 𝓰𝓵𝓪𝓭 𝓽𝓸 𝓱𝓮𝓪𝓻 𝔂𝓸𝓾"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -382,14 +375,14 @@ def Natsuki_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🙋‍♀️ How To Use Me", callback_data="aboutmanu_howto"
+                            text="𝓱𝓸𝔀 𝓽𝓸 𝔂𝓸𝓾 𝓾𝓼𝓮 𝓶𝓮", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="🗒 Terms and Conditions", callback_data="aboutmanu_tac"
+                            text="𝓽𝓮𝓻𝓶𝓼 𝓪𝓷𝓭 𝓬𝓸𝓷𝓭𝓲𝓽𝓸𝓷𝓼", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Help ❔", callback_data="help_back")],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="𝓱𝓮𝓵𝓹", callback_data="help_back")],
+                    [InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -413,24 +406,24 @@ def Natsuki_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Admins", callback_data="aboutmanu_permis"
+                            text="𝓪𝓭𝓶𝓲𝓷𝓼", callback_data="aboutmanu_permis"
                         ),
-                        InlineKeyboardButton(text="Help", callback_data="help_back"),
+                        InlineKeyboardButton(text="𝓱𝓮𝓵𝓹", callback_data="help_back"),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [SDBOTsInifinity](https://t.me/SDBOTs_Inifinity)."
+            f"\n\nBased on [𝓪𝓵𝓮𝔁𝓪 𝓼𝓾𝓹𝓹𝓸𝓻𝓽](https://t.me/DARKAMANCHANNEL)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by Sadew Jayasekara"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_tac")]]
+                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_tac")]]
             ),
         )
 
@@ -445,7 +438,7 @@ def Natsuki_about_callback(update, context):
             f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -474,7 +467,7 @@ def Natsuki_about_callback(update, context):
             "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_tac":
@@ -495,9 +488,9 @@ def Natsuki_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Credits", callback_data="aboutmanu_credit"
+                            text="𝓬𝓻𝓮𝓭𝓲𝓽𝓼", callback_data="aboutmanu_credit"
                         ),
-                        InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_"),
                     ]
                 ]
             ),
@@ -520,7 +513,7 @@ def get_help(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="𝓱𝓮𝓵𝓹",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -536,13 +529,13 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="𝓱𝓮𝓵𝓹",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat",
+                            text="𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓬𝓱𝓪𝓽",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
@@ -563,7 +556,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="help_back")]]
             ),
         )
 
@@ -635,7 +628,7 @@ def settings_button(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="𝓫𝓪𝓬𝓴",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -716,7 +709,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="𝓼𝓮𝓽𝓽𝓲𝓷𝓰𝓼",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
