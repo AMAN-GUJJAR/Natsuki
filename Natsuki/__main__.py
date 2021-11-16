@@ -80,7 +80,6 @@ buttons = [
             text="𝓬𝓸𝓶𝓶𝓪𝓷𝓭 ✘ 𝓱𝓮𝓵𝓹", callback_data="help_back"
         ),
     ],
-    [
         InlineKeyboardButton(
             text="𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹",
             url="t.me/ALEXA_MANAGER_ROBOT?startgroup=true",
