@@ -63,27 +63,27 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-[🌸](https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg), 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮, 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸. 
-𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 /help 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼!
+[🌸](https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg), 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸 
+𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼 /help!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝓪𝓵𝓮𝔁𝓪 𝓾𝓹𝓭𝓪𝓽𝓮𝓼", url="https://t.me/DARKAMANCHANNEL"
+            text="🌸𝓪𝓵𝓮𝔁𝓪 𝓾𝓹𝓭𝓪𝓽𝓮𝓼🌸", url="https://t.me/DARKAMANCHANNEL"
         ),
         InlineKeyboardButton(
-            text="𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓰𝓻𝓸𝓾𝓹", url="https://t.me/DARKAMANSUPPORT"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="𝓬𝓸𝓶𝓶𝓪𝓷𝓭 ✘ 𝓱𝓮𝓵𝓹", callback_data="help_back"
+            text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓰𝓻𝓸𝓾𝓹🌸", url="https://t.me/DARKAMANSUPPORT"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹",
+            text="🌸𝓬𝓸𝓶𝓶𝓪𝓷𝓭 ✘ 𝓱𝓮𝓵𝓹🌸", callback_data="help_back"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="🌸𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹🌸",
             url="t.me/ALEXA_MANAGER_ROBOT?startgroup=true",
         ),
     ],
@@ -105,7 +105,7 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """𝓱𝓮𝔂𝓪, 𝓰𝓵𝓪𝓭 𝓽𝓸 𝓱𝓮𝓪𝓻 𝔂𝓸𝓾"""
+DONATE_STRING = """🌸𝓲 𝓭𝓸𝓷𝓽 𝓷𝓮𝓮𝓭 𝓶𝓸𝓷𝓮𝔂🌸"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -201,7 +201,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="help_back")]]
                     ),
                 )
 
@@ -303,7 +303,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*🌸 ｢  🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸 {}  𝓶𝓸𝓭𝓾𝓵𝓮 」🌸*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -312,7 +312,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="help_back")]]
                 ),
             )
 
@@ -365,8 +365,8 @@ def Natsuki_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Natsuki Updates.* "
-            f"\n\n Join [NatsukiUpdates](https://t.me/Natsuki_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by @DARKAMAN.* "
+            f"\n\n Join [🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸](https://t.me/DARKAMANSUPPORT) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -376,14 +376,14 @@ def Natsuki_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝓱𝓸𝔀 𝓽𝓸 𝔂𝓸𝓾 𝓾𝓼𝓮 𝓶𝓮", callback_data="aboutmanu_howto"
+                            text="🌸𝓱𝓸𝔀 𝓽𝓸 𝔂𝓸𝓾 𝓾𝓼𝓮 𝓶𝓮🌸", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="𝓽𝓮𝓻𝓶𝓼 𝓪𝓷𝓭 𝓬𝓸𝓷𝓭𝓲𝓽𝓸𝓷𝓼", callback_data="aboutmanu_tac"
+                            text="🌸𝓽𝓮𝓻𝓶𝓼 𝓪𝓷𝓭 𝓬𝓸𝓷𝓭𝓲𝓽𝓸𝓷𝓼🌸", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [InlineKeyboardButton(text="𝓱𝓮𝓵𝓹", callback_data="help_back")],
-                    [InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🌸𝓱𝓮𝓵𝓹🌸", callback_data="help_back")],
+                    [InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -407,11 +407,11 @@ def Natsuki_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝓪𝓭𝓶𝓲𝓷𝓼", callback_data="aboutmanu_permis"
+                            text="🌸𝓪𝓭𝓶𝓲𝓷𝓼🌸", callback_data="aboutmanu_permis"
                         ),
-                        InlineKeyboardButton(text="𝓱𝓮𝓵𝓹", callback_data="help_back"),
+                        InlineKeyboardButton(text="🌸𝓱𝓮𝓵𝓹🌸", callback_data="help_back"),
                     ],
-                    [InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="aboutmanu_")],
                 ]
             ),
         )
@@ -424,7 +424,7 @@ def Natsuki_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_tac")]]
+                [[InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="aboutmanu_tac")]]
             ),
         )
 
@@ -439,7 +439,7 @@ def Natsuki_about_callback(update, context):
             f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -468,7 +468,7 @@ def Natsuki_about_callback(update, context):
             "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_tac":
@@ -481,7 +481,7 @@ def Natsuki_about_callback(update, context):
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of TheNatsukiBot we are not resposible for anything."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of alexa robot we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
@@ -489,9 +489,9 @@ def Natsuki_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝓬𝓻𝓮𝓭𝓲𝓽𝓼", callback_data="aboutmanu_credit"
+                            text="🌸𝓬𝓻𝓮𝓭𝓲𝓽𝓼🌸", callback_data="aboutmanu_credit"
                         ),
-                        InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="aboutmanu_"),
                     ]
                 ]
             ),
@@ -514,7 +514,7 @@ def get_help(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝓱𝓮𝓵𝓹",
+                                text="🌸𝓱𝓮𝓵𝓹🌸",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -530,13 +530,13 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝓱𝓮𝓵𝓹",
+                            text="🌸𝓱𝓮𝓵𝓹🌸",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓬𝓱𝓪𝓽",
+                            text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓬𝓱𝓪𝓽🌸",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
@@ -557,7 +557,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝓫𝓪𝓬𝓴", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="🌸𝓫𝓪𝓬𝓴🌸", callback_data="help_back")]]
             ),
         )
 
@@ -629,7 +629,7 @@ def settings_button(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝓫𝓪𝓬𝓴",
+                                text="🌸𝓫𝓪𝓬𝓴🌸",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -710,7 +710,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝓼𝓮𝓽𝓽𝓲𝓷𝓰𝓼",
+                                text="🌸𝓼𝓮𝓽𝓽𝓲𝓷𝓰𝓼🌸",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -803,7 +803,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online ❤")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓸𝓷 𝓯𝓲𝓻𝓮 [🔥](https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg)")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
